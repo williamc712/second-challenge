@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main
+      class="d-flex-md vh-100 flex-col-md justify-content-center align-items-center"
+    >
+      <section class="card shadow d-flex-md border">
+        <div
+          class="score-card gradient text-center p-5 d-flex flex-col-sm flex-col-md align-items-center border"
+        >
+          <h2 class="text-bold mb-5">Your Result</h2>
+          <div class="circle gradient-score mb-5">
+            <p class="text-bolder score-text" id="totalScore">76</p>
+            <p class="text-bold text-mute">of 100</p>
+          </div>
+          <div class="result-box">
+            <h3 class="text-bold text-white fs-2 mb-2">Great</h3>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="summary-card">
+          <h2 class="mb-5">Summary</h2>
+          <div class="score-box bg-red">
+            <span
+              ><img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction logo"
+              />
+              Reaction</span
+            >
+            <span
+              ><span class="text-bold" id="reactionScore">80</span>&nbsp;/
+              100</span
+            >
+          </div>
+          <div class="score-box bg-yellow">
+            <span
+              ><img src="./assets/images/icon-memory.svg" alt="brain" />
+              Memory</span
+            >
+            <span
+              ><span class="text-bold" id="memoryScore">92</span
+              >&nbsp;/100</span
+            >
+          </div>
+          <div class="score-box bg-green">
+            <span
+              ><img src="./assets/images/icon-verbal.svg" alt="chat bubble" />
+              Verbal</span
+            >
+            <span
+              ><span class="text-bold" id="verbalScore">61</span>&nbsp;/
+              100</span
+            >
+          </div>
+          <div class="score-box bg-blue">
+            <span
+              ><img src="./assets/images/icon-visual.svg" alt="eye icon" />
+              Visual</span
+            >
+            <span
+              ><span class="text-bold" id="visualScore">72</span>&nbsp;/
+              100</span
+            >
+          </div>
+          <a href="#" class="button">Continue</a>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+
+    <script src="./assets/js/app.js" type="application/javascript"></script>
+  </body>
+</html>
