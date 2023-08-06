@@ -50,7 +50,7 @@ footer {
 /* Utilities */
 .bg-red {
   background-color: var(--primary-red);
-  background-color: var(--primary-red-text);
+  color: var(--primary-red-text);
 }
 
 .bg-yellow {
@@ -65,7 +65,7 @@ footer {
 
 .bg-blue {
   background: var(--primary-blue);
-  background: var(--primary-blue-text);
+  color: var(--primary-blue-text);
 }
 
 .border {
